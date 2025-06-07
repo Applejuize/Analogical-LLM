@@ -1,0 +1,64 @@
+{
+    "cases": [
+        {
+            "id": 1,
+            "problem_description": "How can we design algorithms that recognize, simulate, or respond to human emotions in a believable, ethical, and useful way?",
+            "category":"cs",
+            "notes": "N/A"
+        },
+        {
+            "id": 2,
+            "problem_description": "How can we create a portable desk that feels sturdy and durable, without adding too much weight or sacrificing comfort?",
+            "category":"product_design",
+            "notes": "https://www.triz.co.uk/case-studies"
+        },
+        {
+            "id": 3,
+            "problem_description": "How can public institutions deliver quality services while operating under severe budget constraints?",
+            "category":"public_services",
+            "notes": "https://www.triz.co.uk/case-studies"
+        },
+        {
+            "id": 4,
+            "problem_description": "How can we improve user input accuracy on small touchscreens without making the interface crowded or harder to use?",
+            "category":"hci",
+            "notes": "https://arxiv.org/pdf/1307.6369"
+        },
+        {
+            "id": 5,
+            "problem_description": "Teachers introduced structured group projects using peer evaluations and rotating roles to boost collaboration in science classes. Despite these measures, anonymous student surveys revealed that individual quiz scores post-project dropped compared to solo assignments, signaling diluted accountability. How can educators redesign design a system to ensure measurable individual mastery while preserving the benefits of teamwork?",
+            "category":"education",
+            "notes": "N/A"
+        },
+        {
+            "id": 6,
+            "problem_description": "Hospitals aim to increase patient throughput to shorten wait times while maintaining high standards of care. However, speeding up intake and treatment often compromised attention to patient needs. How could they optimize hospital workflows to treat more patients without sacrificing the quality of care?",
+            "category":"healthcare",
+            "notes": "N/A"
+        },
+        {
+            "id": 7,
+            "problem_description": "Food manufacturers wanted to extend the shelf life of their products to reduce waste, but traditional preservation methods often impacted the taste and nutritional quality of the product. How could they improve preservation methods without degrading taste, texture, or nutritional value?",
+            "category":"food",
+            "notes": "N/A"
+        },
+        {
+            "id": 8,
+            "problem_description": "How can we design athletic training that pushes performance forward without increasing the risk of injury from overuse?",
+            "category":"sports",
+            "notes": "https://sportsmedicineweekly.com/sports/overuse-can-contribute-to-high-rate-of-arm-injuries-among-youth-players/"
+        },
+        {
+            "id": 9,
+            "problem_description": "How can digital platforms offer personalized experiences without infringing on user privacy or requiring invasive data collection?",
+            "category":"data privacy",
+            "notes": "N/A"
+        },
+        {
+            "id": 10,
+            "problem_description": "How can we design a game that feels rich and immersive for seasoned players, without overwhelming new or casual players who might not have the time, skills, or hardware to dive in deeply?",
+            "category":"game",
+            "notes": "https://time.com/4344566/overwatch-interview/"
+        }
+    ]
+}
