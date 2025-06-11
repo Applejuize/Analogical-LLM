@@ -45,7 +45,13 @@ echo $OPENAI_API_KEY
 ```
 should print out the key 
 
-### Open jupyter notebook to run the Prototype.ipynb file
+### Open jupyter notebook to run the `main.ipynb` file
+This notebook contains the main implementation of the analogical reasoning pipeline, baseline setup, and the automatic evaluation setup.
 ```
 jupyter notebook 
 ```
+
+### File Descriptions
+- `questions.json`: Contains the list of eleven questions used for evaluating analogical reasoning.
+- `responses.json`: Includes five different model-generated responses for each question. 
+- `sample_output.txt`: Provides a full trace of intermediate reasoning steps for a sample query. 
