@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Brainstorm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content" id="home-page">
+            <header class="header">
+                <h1 class="title">Deep Brainstorm</h1>
+                <p class="subtitle">Find unexpected connections across domains for your fuzzy ideas</p>
+            </header>
+            
+            <div class="intro-text">
+                <p class="intro-line">Doing is easy. Knowing what to do is hard.</p>
+                <p class="intro-line">We leverage analogical reasoning to help you expand the surface area of exploration before you lock in</p>
+            </div>
+            
+            <div class="chat-container">
+                <div class="input-container">
+                    <textarea 
+                        id="user-input" 
+                        placeholder="Describe your challenge, idea, or problem you're trying to solve..."
+                        rows="4"
+                    ></textarea>
+                    <button id="send-button" class="send-button">
+                        <span class="button-text">Send</span>
+                        <svg class="send-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22,2 15,22 11,13 2,9"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="content processing-page" id="processing-page" style="display: none;">
+            <div class="processing-container">
+                <div class="processing-header">
+                    <h2 class="processing-title">Exploring analogical connections...</h2>
+                    <p class="processing-subtitle">This may take a few moments as we analyze your query across multiple domains</p>
+                </div>
+                
+                <div class="progress-steps">
+                    <div class="step" id="step-1">
+                        <div class="step-indicator"></div>
+                        <span class="step-text">Identifying target domain</span>
+                    </div>
+                    <div class="step" id="step-2">
+                        <div class="step-indicator"></div>
+                        <span class="step-text">Mapping problem landscape</span>
+                    </div>
+                    <div class="step" id="step-3">
+                        <div class="step-indicator"></div>
+                        <span class="step-text">Abstracting core contradictions</span>
+                    </div>
+                    <div class="step" id="step-4">
+                        <div class="step-indicator"></div>
+                        <span class="step-text">Finding base domains</span>
+                    </div>
+                    <div class="step" id="step-5">
+                        <div class="step-indicator"></div>
+                        <span class="step-text">Extracting solution patterns</span>
+                    </div>
+                    <div class="step" id="step-6">
+                        <div class="step-indicator"></div>
+                        <span class="step-text">Transferring insights</span>
+                    </div>
+                    <div class="step" id="step-7">
+                        <div class="step-indicator"></div>
+                        <span class="step-text">Synthesizing recommendations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content results-page" id="results-page" style="display: none;">
+            <div class="results-container">
+                <div class="results-header">
+                    <h2 class="results-title">Your Analogical Insights</h2>
+                    <button id="new-query-button" class="new-query-button">New Query</button>
+                </div>
+                
+                <div class="results-content" id="results-content">
+                    <!-- Results will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
